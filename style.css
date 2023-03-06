@@ -1,6 +1,6 @@
 body{
-    background-color: #7373FF;
-    color: black;
+    background-color: #ACA4FF;
+    color: #837E9F;
 
 }
 
@@ -17,7 +17,7 @@ body{
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    background-color: rgba(7, 7, 7, 0.6);
+    background-color: rgb(0, 0, 0);
 
 
     
@@ -28,8 +28,8 @@ body{
 #links{
     display: flex;
     position: absolute;
-    width: 368px;
-    height: 368px;
+    width: 348px;
+    height: 348px;
     left: 40px;
     flex-wrap: wrap;
     top: 362px;
@@ -37,7 +37,7 @@ body{
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    background-color: rgba(7, 7, 7, 0.6);
+    background-color: rgb(0, 0, 0);
  
     
 
