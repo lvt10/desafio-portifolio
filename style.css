@@ -1,6 +1,7 @@
 body{
     background-color: #ACA4FF;
     color: #837E9F;
+    font-weight: bold;
 
 }
 
@@ -62,6 +63,75 @@ a{
     border-radius: 100%;
     border: 1px green;
 }
+#tecnologias{
+    display: flex;
+    position: absolute;
+    width: 330px;
+    height: 200px;
+    left: 40px;
+    flex-wrap: wrap;
+    top: 740px;
+    border-radius: 23px;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    padding: 25px;
+    font-size: 30px;
+}
+.redondo{
+    background-color: #CB92B1;
+    color: black;
+    width: auto;
+    min-width: 100px;
+    height: 24px;
+    border-radius: 17px;
+    font-size: small;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+#experiencia{
+    display: flex;
+    position: absolute;
+    width: 348px;
+    height: 349px;
+    left: 40px;
+    flex-wrap: wrap;
+    top: 1023px;
+    border-radius: 23px;
+    align-content: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0);
+    padding: 25px;
+    font-size: 30px;
+
+
+    
+
+
+
+}
+ul {
+    list-style: none
+
+  }
+  
+  ul li:before {
+    content: '\2022';
+    margin: 0 2px;
+    color: #837E9F /* cor da bolinha */
+   }
+li{
+    font-size: 20px;
+
+}
+
+
 
 
 
