@@ -54,6 +54,7 @@ body{
 a{
     display: flex;
     align-items: center;
+    color: #837E9F;
     
 }
 .foto{
@@ -61,7 +62,7 @@ a{
     height: 128px;
 
     border-radius: 100%;
-    border: 1px green;
+    border: 3px solid rgb(9, 17, 122);
 }
 #tecnologias{
     display: flex;
@@ -97,23 +98,18 @@ a{
 #experiencia{
     display: flex;
     position: absolute;
-    width: 348px;
+    width: 330px;
     height: 349px;
     left: 40px;
     flex-wrap: wrap;
     top: 1023px;
     border-radius: 23px;
-    align-content: center;
+    align-content: flex-start;
     justify-content: flex-start;
-    flex-direction: row;
+    flex-direction: column;
     background-color: rgb(0, 0, 0);
     padding: 25px;
     font-size: 30px;
-
-
-    
-
-
 
 }
 ul {
@@ -130,6 +126,81 @@ li{
     font-size: 20px;
 
 }
+#educacao{
+    display: flex;
+    position: absolute;
+    width: 330px;
+    height: 349px;
+    left: 40px;
+    flex-wrap: wrap;
+    top: 1457px;
+    border-radius: 23px;
+    align-content: flex-start;
+    justify-content: normal;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    padding: 25px;
+    font-size: 30px;
+
+
+}
+#myProjects{
+    display: flex;
+    position: absolute;
+    width: 952px;
+    height: 86px;
+    left: 441px;
+    flex-wrap: wrap;
+    top: 41px;
+    border-radius: 23px;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 30px;
+
+}
+#myProjects div{
+    font-weight: normal;
+    font-size: 20px;
+}
+#projeto{
+    display: flex;
+    position: absolute;
+    width: 380px;
+    height: 300px;
+    left: 448px;
+    flex-wrap: wrap;
+    top: 157px;
+    border-radius: 23px;
+    align-content: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    padding: 25px;
+    font-size: 30px;
+
+}
+.descricao{
+    font-size: 20px;
+    font-weight: normal;
+}
+#projeto .html{
+    border-radius: 50%;
+    background-color: rgb(218, 15, 0);
+}
+#projeto .css{
+    border-radius: 50%;
+    background-color: rgb(0, 0, 203);
+}
+#projeto .javaScript{
+    border-radius: 50%;
+    background-color: rgb(212, 209, 0);
+}
+
+
 
 
 
